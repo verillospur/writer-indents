@@ -1,0 +1,29 @@
+{
+  "name": "writer-indents",
+  "version": "1.0.0",
+  "description": "Indent mangament for Writer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verillospur/writer-indents.git"
+  },
+  "keywords": [
+    "writer",
+    "indents",
+    "writer-indents",
+    "indent"
+  ],
+  "author": "BS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verillospur/writer-indents/issues"
+  },
+  "homepage": "https://github.com/verillospur/writer-indents#readme",
+  "dependencies": {
+    "date-fns": "^2.22.1",
+    "uuid": "^8.3.2"
+  }
+}

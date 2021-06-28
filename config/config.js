@@ -1,26 +1,27 @@
 // 
-//  config.js 
-//  ~/config/ 
+//  config.js
+//  ~/config/
 // 
-//  created:    2021-06-26
+//  created:    2021-05-06
 // 
-//  app-wide configuration 
+//  global config
 // 
 'use strict';
 
 const config = () => {
 
     return {
-      
+
+        // defaults
+        ENCODING_DEFAULT: 'utf8',
+        FILE_WRITE_OPTIONS: 'a',
+
         // log
-        log: require('../log/config'), 
+        log: require('../log/config'),
+
+        // framework
+        framework: require('../framework/config'),
         
-        // mongodb
-        //mongodb: require('../data/config'), 
-
-        // users
-        //clients: require('../clients/config'), 
-
     };
 };
 

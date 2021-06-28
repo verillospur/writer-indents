@@ -9,18 +9,18 @@
 'use strict';
 
 const fs = require('fs');
+const { check } = require('../../log/log-file-manager');
 
-const check = (path) => {
+const checkExists = async (path) => {
 
     let exists = false;
 
     if (path) {
-        exists = fs.existsSync(path);
+        // exists = fs.existsSync(path);
+        // exists = await fs.stat(path).isDirectory;
     }
 
     return exists;
 };
 
-module.exports = {
-  checkExists: check
-}
+module.exports = checkExists;

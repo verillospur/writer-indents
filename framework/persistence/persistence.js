@@ -2,8 +2,9 @@
 //  persistence.js
 //  ~/persistence/
 //
-//  created:    03/01/2021
+//  created:    2021-02-01
 //
-//  perstience controller
+//  persistence controller
 //
 'use strict';
+module.exports = require('../../data');
